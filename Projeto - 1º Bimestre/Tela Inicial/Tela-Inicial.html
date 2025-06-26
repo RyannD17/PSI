@@ -1,59 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paginar</title>
-
-    <link rel="stylesheet" href="Tela-Inicial.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paginar - Marketplace de Livros</title>
+  <link rel="stylesheet" href="Tela-Inicial.css">
 </head>
 <body>
-<!-- Logo com as opções  -->
-  <header>
-    <div class="logo"><img src="/PSI/Projeto - 1º Bimestre/Imagens/Logo-Oficial.png" alt=""></div>
-    <nav class="navbar">
-      <a href="#">Categorias</a>
-      <a href="#">Sobre</a>
-    </nav>
-  </header>
+  <div class="wrapper">
+    <!-- Cabeçalho -->
+    <header>
+      <a href="#" class="logo-link">
+        <img src="/PSI/Projeto - 1º Bimestre/Imagens/Logo-Fundo-Azul.png" alt="Paginar" class="logo-img">
+      </a>
+      <nav>
+        <ul class="navbar">
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Livros</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Login</a></li>
+          <li><a href="#">Cadastro</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <div>
-    <span>É novo por aqui? Cadastre-se agora, ou recupere seu login!</span>
-    <button>Cadastre-se</button>
-    <button>Login</button>
-  </div>
+    <!-- Frase de destaque -->
+    <section class="slogan">
+      <h2>"Porque toda revolução começa com uma leitura!"</h2>
+    </section>
 
-  <section class="banner">
-    <h1>Bem-vindo à Paginar</h1>
-    <p>Descubra livros incríveis e viva novas histórias</p>
-    <button>Ver Livros</button>
-  </section>
+    <main class="main-content">
+      <!-- Bloco lateral de cadastro -->
+      <aside class="cadastro-bloco">
+        <h3>É novo por aqui?</h3>
+        <p>
+          <strong>Cadastre-se agora!</strong> Garantindo todo progresso dos seus status durante a imersão pelo <strong>Paginar</strong>.<br><br>Mas se já possui conta, retorne-a clicando em “Entrar”.
+        </p>
+        <a href="#" class="btn-cadastro">Cadastrar-se</a>
+        <a href="#" class="btn-login">Entrar</a>
+      </aside>
 
-  <section class="categorias">
-    <h2>Categorias</h2>
-    <div class="grid-categorias">
-      <div>Romance</div>
-      <div>Ficção</div>
-      <div>Técnico</div>
-      <div>HQs</div>
-    </div>
-  </section>
+      <!-- Grid de livros -->
+      <section class="livros-grid">
+        <!-- Livro em destaque (com preço) -->
+        <div class="livro destaque">
+          <img src="capa1.jpg" alt="Palavra e Afeto">
+          <h4>Trabalho e Afeto</h4>
+          <span class="autor">Marivalda adengúda</span>
+          <p>Descubra como as palavras podem transformar emoções e criar novas conexões através do serviço comunitário.</p>
+          <span class="preco">R$ 19,90</span>
+        </div>
 
-  <section class="destaques">
-    <h2>Livros em Destaque</h2>
-    <div class="grid-livros">
-      <div class="livro">
-        <img src="https://placehold.co/150x220" alt="Capa do Livro">
-        <h3>Título do Livro</h3>
-        <p>R$ 39,90</p>
+        <!-- Outros livros (sem preço) -->
+        <div class="livro">
+          <img src="capa2.jpg" alt="O Enigma das Sombras">
+          <h4>O Enigma das Sombras</h4>
+          <span class="autor">Edimundo de Oliveira</span>
+          <p>Um suspense envolvente que desafia a mente e o coração do leitor.</p>
+        </div>
+
+        <div class="livro">
+          <img src="capa3.jpg" alt="Caminhos do Sol">
+          <h4>Caminhos do Sol</h4>
+          <span class="autor">Cunegundes de Andrade</span>
+          <p>Uma jornada inspiradora sobre recomeços e descobertas pessoais.</p>
+        </div>
+
+        <div class="livro">
+          <img src="capa4.jpg" alt="Entre Versos">
+          <h4>Entre Versos</h4>
+          <span class="autor">Tilam Buzáro</span>
+          <p>Poesias que tocam fundo a alma e despertam sentimentos adormecidos.</p>
+        </div>
+
+        <div class="livro">
+          <img src="capa5.jpg" alt="Horizonte Azul">
+          <h4>Horizonte Azul</h4>
+          <span class="autor">Beatriz Fagundes</span>
+          <p>Romance e aventura em uma narrativa que prende do início ao fim.</p>
+        </div>
+
+        <div class="livro">
+          <img src="capa6.jpg" alt="Fragmentos">
+          <h4>Fragmentos</h4>
+          <span class="autor">Carlos Nunes</span>
+          <p>Contos curtos que exploram a complexidade dos sentimentos humanos.</p>
+        </div>
+
+        <div class="livro">
+          <img src="capa7.jpg" alt="A Última Página">
+          <h4>A Última Página</h4>
+          <span class="autor">Juliana Alves</span>
+          <p>Uma história sobre finais e novos começos, cheia de surpresas.</p>
+        </div>
+
+        <div class="livro">
+          <img src="capa8.jpg" alt="Noite Clara">
+          <h4>Noite Clara</h4>
+          <span class="autor">Zeran D'aprova</span>
+          <p>Suspense e emoção em uma trama eletrizante.</p>
+        </div>
+
+        <div class="livro">
+          <img src="capa9.jpg" alt="Livre para Voar">
+          <h4>Livre para Voar</h4>
+          <span class="autor">Fernanda Reis</span>
+          <p>Uma narrativa sobre liberdade, escolhas e autoconhecimento.</p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="logo-paginar.png" alt="Minha foto" class="criador-img">
+        </div>
+        <div class="footer-info">
+          <span>Ryann Devy's<br><small>Fundador da Paginar</small></span>
+        </div>
       </div>
-      <!-- repetir com outros livros -->
-    </div>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Paginar - Marketplace de Livros</p>
-  </footer>
-
+      <p class="copyright">&copy; 2025 Paginar. Todos os direitos reservados.</p>
+    </footer>
+  </div>
 </body>
 </html>
