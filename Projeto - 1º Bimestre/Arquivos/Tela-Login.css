@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #5B2A86;;
+    background-color: #3B2A86;;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,7 +32,7 @@ body {
 
 h1 {
     text-align: center;
-    color: #5B2A86; /* Roxo oficial */
+    color: #3B2A86; /* Roxo oficial */
     margin-bottom: 2.5rem;
 }
 
@@ -44,7 +44,7 @@ form {
 label {
     margin-bottom: 0.5rem;
     font-weight: bold;
-    color: #5B2A86;
+    color: #3B2A86;
     position: relative;
 }
 
@@ -56,18 +56,18 @@ input {
     transition: 0.4s ease;
 }
 
-.cadastrar {
+.logar {
     margin-top: 20px;
 }
 
 /* Quando o usuário clicar para adicionar as informações, o preenchimento fica roxo em volta. */
 input:focus {
-    border-color: #5B2A86;
+    border-color: #3B2A86;
     outline: none;
 }
 
 button {
-    background: #6c30a0;
+    background: #4f2ee0;
     padding: 12px;
     color: white;
     border: none;
@@ -78,5 +78,5 @@ button {
 }
 
 button:hover {
-    background: #481e6d; /* Roxo mais escuro */
+    background: #3B2A86; /* Roxo mais escuro */
 }
