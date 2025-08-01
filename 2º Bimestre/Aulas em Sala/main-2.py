@@ -1,3 +1,4 @@
+from time import sleep
 nome = input("Digite seu nome para a imersão: ")
 print(f"\nBem-vindo(a), {nome}, à sua calculadora virtual! 😁")
 operacao = str(input('''\nOPERAÇÕES POSSÍVEIS
@@ -15,6 +16,12 @@ Por favor, digite os dois valores que vc deseja somar, {nome}.''')
     num_1 = float(input("\nPrimeiro número: "))
     num_2 = float(input("Segundo número: "))
     soma = num_1 + num_2
+
+    print("\nAnalisando sua conta...")
+    for cont in range (3, 0, -1):
+        print(cont)
+        sleep(1)
+
     print(f"\nA soma entre os números {num_1} e {num_2} é {soma}. 😊")
 
 elif operacao == "-":
@@ -23,6 +30,12 @@ Por favor, digite os dois valores que vc deseja subtrair, {nome}.''')
     num_1 = float(input("\nPrimeiro número: "))
     num_2 = float(input("Segundo número: "))
     sub = num_1 - num_2
+
+    print("\nAnalisando sua conta...")
+    for cont in range (3, 0, -1):
+        print(cont)
+        sleep(1)
+
     print(f"\nA subtração entre os números {num_1} e {num_2} é {sub}. 😊")
 
 elif operacao == "*":
@@ -31,6 +44,12 @@ Por favor, digite os dois valores que vc deseja multiplicar, {nome}.''')
     num_1 = float(input("\nPrimeiro número: "))
     num_2 = float(input("Segundo número: "))
     mult = num_1 * num_2
+
+    print("\nAnalisando sua conta...")
+    for cont in range (3, 0, -1):
+        print(cont)
+        sleep(1)
+        
     print(f"\nA multiplicação entre os números {num_1} e {num_2} é {mult}. 😊")
 
 elif operacao == "/":
@@ -38,9 +57,15 @@ elif operacao == "/":
 Por favor, digite os dois valores que vc deseja dividir, {nome}.''')
     num_1 = float(input("\nPrimeiro número: "))
     num_2 = float(input("Segundo número: "))
+        
     if num_1 == 0 or num_2 == 0:
         print(f'''\nOlha {nome}, a divisão por zero não tem resultado definido na matemática, certo? 🥸
 Portanto, a divisão entre {num_1} e {num_2} é INDEFINIDO! 😵''')
+
+    print("\nAnalisando sua conta...")
+    for cont in range (3, 0, -1):
+        print(cont)
+        sleep(1)
 
     else:
         div = num_1 / num_2
