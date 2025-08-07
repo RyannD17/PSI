@@ -118,6 +118,25 @@
     // console.log(`O número ${num} elevado ao quadrado é igual a ${resultado}.`)
 
 
+// Questão 8
+
+    // let num = [9, 6, 17, 0, 13, 10, 14, 7, 8, 11]
+
+    // let maiores = []
+    // let menores = []
+
+    // for (let i = 0; i < num.length; i++) {
+    //     if (num[i] > 10) {
+    //         maiores.push(num[i])
+    //     } else {
+    //         menores.push(num[i])
+    //     }
+    // }
+
+    // console.log("Números maiores que 10:", maiores)
+    // console.log("Números menores ou iguais a 10:", menores)
+
+
 // Questão 9
 
 // console.log("Bem-vindo(a) ao nosso 'Festival Junino de Mossoró'!")
@@ -137,3 +156,21 @@
 // } else {
 //     console.log(`Oxente! ${idade} anos? Isso lá é idade, criatura? Vá até o final da fila, sô.`)
 // }
+
+
+// Questão 10
+
+    // function atraso(callback) {
+    //     console.log("Esperando 3 segundos...")
+
+    //     setTimeout(() => {
+    //         callback()
+    //         console.log("Tudo pronto, vamos?")
+    //     }, 3000);
+    // }
+
+    // function finalizado() {
+    //     console.log("Perfeito! Callback finalizado com sucesso!")
+    // }
+
+    // atraso(finalizado)
