@@ -139,23 +139,23 @@
 
 // Questão 9
 
-// console.log("Bem-vindo(a) ao nosso 'Festival Junino de Mossoró'!")
-
-// let idade = parseInt(prompt("Antes de prosseguir, informe sua idade para personalizarmos uma experiência de acordo com sua faixa // etária: "))
-
-// if (idade > 0 && idade <= 12) {
-//     console.log(`Somente ${idade} anos... Marrapais! Venha, vou designá-lo(a) para o seu local.`)
-// } else if (idade >= 13 && idade < 18) {
-//     console.log(`${idade} anos, tempo bão da adolescência! Venha, vou designá-lo(a) para o seu local.`)
-// } else if (idade >= 18 && idade < 60) {
-//     console.log(`${idade} anos, né? Venha, vou designá-lo(a) para o seu local.`)
-// } else if (idade >= 60 && idade < 120) {
-//     console.log(`Na terceira idade, não há um melhor momento que seus ${idade} anos para se festejar! Venha, vou designá-lo(a) para o // seu local.`)
-// } else if (idade >= 120) {
-//     console.log("Eita, danado! Por acaso cê é um defunto? Vá até o final da fila, sô.")
-// } else {
-//     console.log(`Oxente! ${idade} anos? Isso lá é idade, criatura? Vá até o final da fila, sô.`)
-// }
+    // console.log("Bem-vindo(a) ao nosso 'Festival Junino de Mossoró'!")
+    
+    // let idade = parseInt(prompt("Antes de prosseguir, informe sua idade para personalizarmos uma experiência de acordo   com sua faixa // etária: "))
+    
+    // if (idade > 0 && idade <= 12) {
+    //     console.log(`Somente ${idade} anos... Marrapais! Venha, vou designá-lo(a) para o seu local.`)
+    // } else if (idade >= 13 && idade < 18) {
+    //     console.log(`${idade} anos, tempo bão da adolescência! Venha, vou designá-lo(a) para o seu local.`)
+    // } else if (idade >= 18 && idade < 60) {
+    //     console.log(`${idade} anos, né? Venha, vou designá-lo(a) para o seu local.`)
+    // } else if (idade >= 60 && idade < 120) {
+    //     console.log(`Na terceira idade, não há um melhor momento que seus ${idade} anos para se festejar! Venha, vou     designá-lo(a) para o // seu local.`)
+    // } else if (idade >= 120) {
+    //     console.log("Eita, danado! Por acaso cê é um defunto? Vá até o final da fila, sô.")
+    // } else {
+    //     console.log(`Oxente! ${idade} anos? Isso lá é idade, criatura? Vá até o final da fila, sô.`)
+    // }
 
 
 // Questão 10
