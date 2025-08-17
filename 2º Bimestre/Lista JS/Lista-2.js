@@ -129,29 +129,29 @@
 
 // Questão 7
 
-function verificarHorario(atualHora) {
-    return new Promise((resolve, reject) => {
-        if (typeof atualHora !== "number" || atualHora < 0 || atualHora > 23) {
-            reject("Erro: hora inválida.")
-        } else if (atualHora >= 8 && atualHora < 17) {
-            resolve("Estamos abertos para atendimento.")
-        } else {
-            reject("Estamos fechados no momento.")
-        }
-    })
-}
+    //function verificarHorario(atualHora) {
+    //    return new Promise((resolve, reject) => {
+    //        if (typeof atualHora !== "number" || atualHora < 0 || atualHora > 23) {
+    //            reject("Erro: hora inválida.")
+    //        } else if (atualHora >= 8 && atualHora < 17) {
+    //            resolve("Estamos abertos para atendimento.")
+    //        } else {
+    //            reject("Estamos fechados no momento.")
+    //        }
+    //    })
+    //}
 
-let atualHora = parseInt(prompt("Opa, tudo bem cliente? Desculpa, mas estou sem meu relógio agora... pode me dizer que horas são? "))
+    //let atualHora = parseInt(prompt("Opa, tudo bem cliente? Desculpa, mas estou sem meu relógio agora... pode me dizer que    //horas são? "))
 
-async function checarAtendimento(hora) {
-    try {
-        let msg = await verificarHorario(hora)
-        console.log(msg)
-    } catch (erro) {
-        console.log(erro)
-    }
-}
+    //async function checarAtendimento(hora) {
+    //    try {
+    //        let msg = await verificarHorario(hora)
+    //        console.log(msg)
+    //    } catch (erro) {
+    //        console.log(erro)
+    //    }
+    //}
 
-checarAtendimento(atualHora)
+    //checarAtendimento(atualHora)
 
-//A variável "hora" que criei é apenas um parâmetro que além de analisar a resposta da "atualHora", ela varre toda minha função "verificarHorario". Em outras palavras, ela não se limita só a resposta, mas a toda função.
+    //A variável "hora" que criei é apenas um parâmetro que além de analisar a resposta da "atualHora", ela varre toda minha função "verificarHorario". Em outras palavras, ela não se limita só a resposta, mas a toda função.
